@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/cover.jpg);
+}
+
+header{
+    background-color: rgb(108, 118, 206);
+}
+
+header h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Asap' , sans-serif;
+}
+
+
+.scoreboard{
+    background-color: rgb(29, 77, 49);
+    border: 4px groove rgb(58, 58, 21);
+    border-radius: 5px;
+    border-spacing: 4px;
+    width: 350px;
+    margin: 20px auto 80px auto;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 18px 15px;
+    font-family: 'Asap', 'sans-serif';
+    position: relative;
+}
+
+.score{
+    background-color: #c9bc0c;
+    color: rgb(24, 18, 9);
+}
+
+#user{
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#computer{
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+.result {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 60px;
+    color: rgb(36, 30, 18);
+    font-weight: 500;
+    
+}
+
+.result > p {
+    font-family: 'Asap' , sans-serif;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choice{
+ width: 25%;
+ height: 15%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Play against the computer.First one to five wins</h1>
+        </header>  
+                
+        <div class="choices">
+            <div id="rock" class="choice">
+                <img src="./images/rock.png" alt="Rock">
+            </div>
+            <div id="paper" class="choice">
+                <img src="./images/paper.png" alt="paper">
+            </div> 
+            <div id="scissors"class="choice">
+                <img src="./images/scissors.png" alt="scissors">
+            </div>
+        </div>
+
+        <div class="scoreboard">
+            <div class="score" id="user">User</div>
+            <div class="score" id="computer">Computer</div>
+            <span id="user-score">0</span> : <span id="computer-score">0</span>
+        </div>
+        
+        <footer class="result">
+            <p>Let's Play Rock Paper Scissors</p>
+        </footer>
+
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>
